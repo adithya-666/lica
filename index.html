@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo-lica.png">
+    <title>LICA - PT INDOHADETAMA SOLUSI DIGITAL</title>
+
+    <!-- fontawesome css -->
+    <link rel="stylesheet" href="assets/css/plugins/fontawesome-5.css">
+    <!-- fontawesome css -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+  />
+    <link rel="stylesheet" href="assets/css/plugins/aos.css">
+    <link rel="stylesheet" href="assets/css/plugins/unicons.css">
+    <link rel="stylesheet" href="assets/css/plugins/metismenu.css">
+    <link rel="stylesheet" href="assets/css/plugins/hover-revel.css">
+    <link rel="stylesheet" href="assets/css/plugins/timepickers.min.css">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+
+
+    <!-- Icon Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <!-- Font Awesome Icon -->
+    <script src="https://kit.fontawesome.com/480975d381.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <!-- header style two -->
+
+
+
+    <!-- header area start -->
+    <header class="heder-two header--sticky">
+        <div class="header-two-container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="header-main-wrapper">
+                        <div class="logo-area">
+                            <a href="index.html" class="logo">
+                                <img id="logo-lica" src="assets/images/logo/logo-lica 2.png" alt="logo-lica">
+                            </a>
+                        </div>
+                        <!-- header right start -->
+                        <div class="rts-header-right">
+                            <div class="menu-area" id="menu-btn">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" viewBox="0 0 18 16" fill="none">
+                                    <rect width="18" height="2" fill="#0C0A0A" />
+                                    <rect y="7" width="18" height="2" fill="#0C0A0A" />
+                                    <rect y="14" width="18" height="2" fill="#0C0A0A" />
+                                </svg>
+                            </div>
+                            <!-- top header -->
+                            <!-- <div class="top">
+                                <div class="start-top">
+                                    <div class="icon"><i class="fa-sharp fa-solid fa-bolt"></i></div>
+                                    <p>We will go through all the stages of construction</p>
+                                </div>
+                                <div class="end-top">
+                                    <div class="single-info">
+                                        <div class="icon"><i class="fa-thin fa-location-dot"></i> </div>
+                                        <p>203 Madison Ave, New York, USA</p>
+                                    </div>
+                                    <div class="single-info">
+                                        <div class="icon"><i class="fa-regular fa-envelope"></i></div>
+                                        <a href="mailto:name@email.com">info@example.com</a>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <!-- top header end -->
+                            <!-- bottom header start -->
+                            <div class="bottom">
+                                <!-- header style two -->
+                                <!-- nav area start -->
+                                <div class="main-nav-desk nav-area">
+                                    <nav>
+                                        <ul>
+                                            <li class="menu-item">
+                                                <a class="nav-item" href="#home">Home</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a class="nav-item" href="#system">System</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a class="nav-item" href="#service">SERVICEs</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a class="nav-item" href="#aboutus">About us</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a class="nav-item" href="#clients">Clients</a>
+                                            </li>
+                                            <li class="menu-item">
+                                                <a class="nav-item" href="#contact">Contact</a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <!-- nav-area end -->
+                                <!-- header style two End -->
+                                <!-- <div class="right-area">
+                                    <div class="icon-area">
+                                        <div class="search" id="search">
+                                            <i class="fa-regular fa-magnifying-glass"></i>
+                                        </div>
+                                        <div class="cart cart-icon">
+                                            <i class="fa-regular fa-cart-shopping"></i>
+                                        </div>
+                                    </div>
+                                    <a href="contact.html" class="rts-btn btn-seconday btn-transparent">Get a Quote <i class="fa-solid fa-arrow-up-right"></i></a>
+                                </div>  -->
+                            </div>
+                            <!-- bottom header end -->
+                        </div>
+                        <!-- header right end -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header area end -->
+
+    <!-- side bar for desktop -->
+    <div id="side-bar" class="side-bar header-two">
+        <!-- <button class="close-icon-menu"><i class="far fa-times"></i></button> -->
+        <!-- inner menu area desktop start -->
+        
+        <!-- mobile menu area start -->
+        <div class="mobile-menu d-block d-xl-none">
+            <nav class="nav-main mainmenu-nav mt--30">
+                <ul class="mainmenu" id="mobile-menu-active">
+                    <li class="menu-item">
+                    <a class="nav-item" href="#home">Home</a>
+                        <hr>
+                    </li>
+                    <li class="menu-item">
+                        <a class="nav-item" href="#system">System</a>
+                        <hr>
+                    </li>
+                    <li class="menu-item">
+                        <a class="nav-item" href="#service">Services</a>
+                        <hr>
+                    </li>
+                    <li class="menu-item">
+                        <a class="nav-item" href="#aboutus">About us</a>
+                        <hr>
+                    </li>
+                    <li class="menu-item">
+                        <a class="nav-item" href="#clients">Clients</a>
+                        <hr>
+                    </li>
+                    <li class="menu-item">
+                        <a class="nav-item" href="#contact">Contact</a>
+                        <hr>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- mobile menu area end -->
+    </div>
+    <!-- header style two End -->
+
+    <!-- rts banenr area start -->
+    <div class="rts-banner-area-two bg-primary banner-two" id="home">
+        <div class="banner-image-left">
+            <img class="image" src="assets/images/banner/cover1.png" alt="banner_image">
+        </div>
+        <div class="banner-image-right">
+            <div class="banner-content">
+                <span data-sal="slide-up" data-sal-delay="150" data-sal-duration="800" style="display: block;">Laboratory Information Management System</span>
+                <h1 class="title" data-sal="slide-up" data-sal-delay="150" data-sal-duration="800" >
+                    Makes your Lab Management  <br style="display: block;">
+                    Easier, Effective And Low Cost
+                </h1>
+                <!-- <p class="short-disc" data-sal="slide-up" data-sal-delay="350" data-sal-duration="800">
+                    
+                </p> -->
+                <!-- <a href="#contact" class="rts-btn btn-seconday">Get Started</a> -->
+            </div>
+        </div>
+        <div class="img-banner">
+
+        </div>
+    </div>
+    <!-- rts banenr area end -->
+
+    <!-- rts fun facts area start-->
+    <div class="rts-service-area rts-section-gap2" id="system">
+        <div class="container">
+            <div class="row g-24">
+                <div class="title-mid-wrapper-home-two" data-sal="slide-up" data-sal-delay="150" data-sal-duration="800">
+                    <span class="pre">Our System</span>
+                    <h2 class="title">Lica Main Module for Laboratory System</h2>
+                </div>
+                <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-delay="150" data-sal-duration="800">
+                    <!-- single fun facts  -->
+                
+                    <div class="rts-single-service-two">
+                        <h2 class="title-main"><span  id="database"  ><i class="bi bi-file-earmark-plus"></i></span></h2>
+                 
+                            <h4 class="title">Pre Analytics</h4>
+                  
+                      
+                        <p class="disc">
+                            Administration and Management of patient examinations in the Hospital involve several crucial steps. These steps include Patient data entry, Check-In updates, Blood sample collection, Sample labeling, Barcode printing, and the input of examination tool data. 
+                        </p>
+                        
+                          <button id="video-pre" class="rts-btn btn-seconday" style="margin-left: 60px;"><i class="bi bi-play-btn-fill"> </i> Show video</button>
+                    </div>
+                    <!-- single fun facts end -->
+                </div>
+                <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-delay="350" data-sal-duration="800">
+                    <!-- single fun facts  -->
+                    <div class="rts-single-service-two">
+                        <h2 class="title-main"><span id="bridging" ><i class="fa-solid fa-microscope fa-flip-horizontal"></i> </span></h2>
+                 
+                            <h4 class="title">Analytics</h4>
+                    
+                       
+                        <p class="disc">
+                            The process of blood examination involves the integration between the LICA information system and the blood examination analyzer, with the recording of the processing time. The completed blood examination results can be verified by analysts and validated by doctors, with the recording of the validation time. 
+                        </p>
+                        <button id="video-analytic" class="rts-btn btn-seconday" style="margin-left: 60px;"><i class="bi bi-play-btn-fill"> </i> Show video</button>
+                    </div>
+                    <!-- single fun facts end -->
+                </div>
+                <div class="col-lg-4 col-md-6" data-sal="slide-up" data-sal-delay="550" data-sal-duration="800">
+                    <!-- single fun facts  -->
+                    <div class="rts-single-service-two">
+                        <h2 class="title-main"><span id="interfacing"><i class="bi bi-clipboard2-pulse"></i></span></h2>
+              
+                            <h4 class="title">Post Analytics</h4>
+                       
+                        <p class="disc">
+                            After completing patient examination tests, important steps to be taken include reviewing the test results, conducting final validation, and printing a summary of the test results. 
+                        </p>
+                        <button id="video-post" class="rts-btn btn-seconday" style="margin-left: 60px;"><i class="bi bi-play-btn-fill"> </i> Show video</button>
+                    </div>
+                    <!-- single fun facts end -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- rts fun facts area end-->
+
+    <div id="videoPre" class="popup">
+        <video controls autoplay controlsList="nodownload">
+            <source src="assets/videos/pre.mp4" type="video/mp4" >
+            Maaf, browser Anda tidak mendukung pemutaran video.
+          </video>
+        <button id="close-popup"><i class="bi bi-x-circle-fill "> </i>Close</button>
+      </div>
+
+
+    <div id="videoAnalytic" class="popup">
+        <video controls autoplay controlsList="nodownload">
+            <source src="assets/videos/analytic.mp4" type="video/mp4" >
+            Maaf, browser Anda tidak mendukung pemutaran video.
+          </video>
+        <button id="close-analytic"><i class="bi bi-x-circle-fill "> </i>Close</button>
+      </div>
+
+
+    <div id="videoPost" class="popup">
+        <video controls autoplay controlsList="nodownload">
+            <source src="assets/videos/post.mp4" type="video/mp4" >
+            Maaf, browser Anda tidak mendukung pemutaran video.
+          </video>
+        <button id="close-post"><i class="bi bi-x-circle-fill "> </i>Close</button>
+      </div>
+
+
+
+    <!-- rts service col 2 area start -->
+    <div class="rts-service-two-col rts-section-gap2Bottom" >
+        <div class="container-full">
+            <div class="main-wrapper-sevice-col-2">
+                <div class="left-image">
+                    <img src="assets/images/banner/112.png" alt="image">
+                </div>
+                <div class="path-right">
+                    <div class="content-wrapper">
+                        <div class="title-mid-wrapper-home-two left">
+                            <span class="pre" data-sal="slide-up" data-sal-delay="150" data-sal-duration="800" style="display: block;">What we Prove for you</span>
+                            <h2 class="title" data-sal="slide-up" data-sal-delay="350" data-sal-duration="800">Easy Data Synchronized </h2>
+                        </div>
+                        <div class="single-wrapper">
+                            <!-- single -->
+                            <div class="single" data-sal="slide-up" data-sal-delay="450" data-sal-duration="800">
+                                <i class="bi bi-arrow-left-right"></i>
+                                <div class="info">
+                                    <h6 class="title">Bridging</h6>
+                                    <span>Synchronize with your Hospital Information System</span>
+                                </div>
+                            </div>
+                            <!-- single end -->
+                            <!-- single -->
+                            <div class="single" data-sal="slide-up" data-sal-delay="650" data-sal-duration="800">
+                                <i class="fa-solid fa-laptop-medical"></i>
+                                <div class="info">
+                                    <h6 class="title">Interfacing</h6>
+                                    <span>Synchronize with your Laboratory Instrument</span>
+                                </div>
+                            </div>
+                            <!-- single end -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- rts service col 2 area end -->
+
+    <!-- what we offer start -->
+    <div >
+    <div class="rts-offer-provide-section rts-section-gap2Bottom" >
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="title-mid-wrapper-home-two" data-sal="slide-up" data-sal-delay="150" data-sal-duration="800">
+                        <span id="service" class="pre">Our Services</span>
+                        <h2 class="title">What We Offer</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt--15 g-24">
+                <div class="col-lg-4 col-md-6">
+                    <!-- single offer area sart -->
+                    <div class="rts-single-offer">
+                        <a href="service-details.html" class="thumbnail">
+                            <img src="assets/images/service/Maintenance.jpeg" alt="service">
+                        </a>
+                        <div class="content-wrapper">
+                            <a href="service-details.html">
+                                <h5 class="title">
+                                Maintenance
+                                </h5>
+                            </a>
+                            <p class="disc">
+                                Once a Month Maintenance on Site 
+                            </p>
+                        
+                        </div>
+                    </div>
+                    <!-- single offer area end -->
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <!-- single offer area sart -->
+                    <div class="rts-single-offer">
+                        <a href="service-details.html" class="thumbnail">
+                            <img src="assets/images/service/support.jpeg" alt="service">
+                        </a>
+                        <div class="content-wrapper">
+                            <a href="service-details.html">
+                                <h5 class="title">
+                                    Support Request 
+                                </h5>
+                            </a>
+                            <p class="disc">
+                            24/7 Support to your request online or on site by request
+                            </p>
+                        
+                        </div>
+                    </div>
+                    <!-- single offer area end -->
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <!-- single offer area sart -->
+                    <div class="rts-single-offer">
+                        <a href="service-details.html" class="thumbnail">
+                            <img src="assets/images/service/customize.jpeg" alt="service">
+                        </a>
+                        <div class="content-wrapper">
+                            <a href="service-details.html">
+                                <h5 class="title">
+                                    Customize Request
+                                </h5>
+                            </a>
+                            <p class="disc">
+                                Fully Customize for Extra Module
+                            </p>
+                        
+                        </div>
+                    </div>
+                    <!-- single offer area end -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!-- what we offer end -->
+
+    <!-- our journey area start -->
+    <div class="rts-journey-area rts-section-gap2 bg-journey mb-4" id="aboutus">
+        <div class="container pb--60">
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <div class="thumbnail-area">
+                        <div class="reveal-item overflow-hidden aos-init">
+                            <div class="reveal-animation reveal-end reveal-primary aos aos-init" data-aos="reveal-end"></div>
+                            <img src="assets/images/banner/bg02.jpg" alt="journey-area">
+                        </div>
+                        <!-- happy clients area start -->
+                        <div class="happy-clients-area-start">
+                            <div class="img-area-person">
+                                <img src="assets/images/clients/rsj.jpeg" alt="team">
+                                <img src="assets/images/clients/logo-pindad.png" alt="team">
+                                <img src="assets/images/clients/11zon_cropped.png" alt="team">
+                            </div>
+                            <p>More Than Many Clients</p>
+                        </div>
+                        <!-- happy clients area end -->
+                    </div>
+                </div>
+                <div class="col-lg-7 pl--75">
+                    <div class="journey-main-wrapper">
+                        <div class="title-mid-wrapper-home-two left" data-sal="slide-up" data-sal-delay="150" data-sal-duration="800">
+                            <span class="pre"> </span>
+                            <h2 class="title">Make's Your Laboratory Expert with LICA</h2>
+                        </div>
+                        <div class="inner-content" data-sal="slide-up" data-sal-delay="350" data-sal-duration="800">
+                            <p class="disc">
+                                More than many clients who get clear benefits from using LICA. The benefits include Guaranteed Legality, free Implementation Services, free Installation Services, free Training and re-Training Services, Service Guarantees, Exclusive System Support, free Maintenance Services, free System Repair Services, 24/7 IT Support Services, Easy Access to Services, and Guaranteed Commitment Stated in the MoU. <br> <span class="quotes">Because Serving You, Must be Experienced</span>
+                            </p>
+                            <a href="https://wa.share.web.id/licaCS" class="rts-btn btn-primary">Get Started</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- our journey area end -->
+
+    <!-- rts case studies area start -->
+    
+    <!-- rts case studies area end -->
+
+    <!-- rts cta area start -->
+    <!-- <div class="rts-cta-area rts-section-gap2Bottom">
+        <div class="container container-cta-150">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="path-cta-left">
+                        <h3 class="title">
+                            Do you want to get estimation?
+                        </h3>
+                        <p class="disc">Get free estimation of your construction sites. feel free to call us.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="path-call-area">
+                        <div class="icon">
+                            <i class="fa-regular fa-phone-office"></i>
+                        </div>
+                        <div class="detail">
+                            <span>Mon-Sat 8:00-9:00</span>
+                            <a href="#" class="number">
+                                +256 2158 2158
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- rts cta area end -->
+
+
+
+       <!-- rts faq area -->
+       <div class="rts-faw-area-2 faq-bg-2 bg_image">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 first-child">
+                    <div class="title-mid-wrapper-home-two left">
+                        <span class="pre"></span>
+                        <h2 class="title">Choose Your Plan </h2>
+                    </div>
+                    <div class="accordion-two" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                  LICA  License
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="disc">The hospital purchases the application ownership license based on agreements</p>
+                                    <b>Your Benefit</b> <br>
+                                    <ul style="list-style-type:disc">
+                                   <li> Free Maintenance For One Year</li> 
+                                   <li> Free Training If Necessary</li> 
+                                   <li> Free Support on Site & By Remote 24/7</li>
+                                </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                 LICA  Subscription
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="disc">
+                                        The hospital becomes a partner by paying a monthly fee during the collaboration period</p>
+                                       <b> Your Benefit</b> <br>
+                                       <ul style="list-style-type:disc">
+                                       <li> Free Maintenance Based on Agreement </li>
+                                       <li> Free Training Based on Agreement </li>
+                                       <li> Free Support on Site & By Remote 24/7 Based on Agreement </li>
+                                        </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 last-child">
+                    <div class="thumbanil">
+                        <i class="fa-regular fa-handshake"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- rts faq area end -->
+
+    <!-- rts blog area start -->
+  
+    <!-- rts blog area end -->
+
+    <!-- our goals in number section start -->
+  
+    <!-- our goals in number section end -->
+
+<!-- Our Clients -->
+<div id="clients">
+    <div class="container mb-4"  >
+        <div class="title-mid-wrapper-home-two mb-4" data-sal="slide-up" data-sal-delay="150" data-sal-duration="800">
+            <span class="pre"  >Our Populations</span>
+            <h2 class="title" > Those Who Enjoyed LICA</h2>
+        </div>
+        <div id="map">
+
+        </div>
+    </div>
+</div>
+<!-- Our Clients -->
+
+    <!-- rts testimonials area start -->
+    <div class="rts-testimonials-area rts-section-gap3Bottom">
+        <div class="container">
+                        <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" space-between="30" data-swiper-autoplay="2000"
+                        slides-per-view="2">
+                        <swiper-slide>
+                            <div class="card" style="width: 56rem; ">
+                                <div class="card-body">
+                                  <div class="row">
+                                    <div class="col-lg-2 col-sm-1">
+                                        
+                                    </div>
+                                    <div class="col-lg-8 col-sm-3">
+                                  <p class="card-title"><a href="#" ><i class="fa-solid fa-quote-right"></i> dr. Inge Kusumaningdiyah,Sp.PK, <br><span class="hospital">RST dr. Soedjono</span></a></p>
+                                </div>
+                                <div class="col-lg-2">
+                                    <img id="profile-picture" src="assets/images/testimonial/testimoni-1.png" alt="">
+                                </div>
+                                </div>
+
+                                  <h6 class="card-subtitle mb-2 text-muted"></h6>
+                                  <p class="card-text" style="text-align: justify;">Menggunakan program LICA sangat memuaskan, operasionalnya praktis tidak ribet, program dapat disesuaikan dengan kebutuhan kita, sistem pelaporan sangat bagus karena bisa di buat sesuai dengan yang kita inginkan sehingga kegiatan monev pelayanan laboratorium bisa optimal,  terutama sistem pelaporan nilai kritis yang di buat sedemikian rupa sehingga nilai kritis dapat terlaporkan dengan cepat, real time dan terecord dengan baik. Dengan LICA maka Dokter PJ laboratorium dapat memvalidasi setiap waktu dan di mana saja. Semoga pengembangan sistem inventory reagen dan bahan habis pakai segera terealisasi.
+                                     <br>
+                                     <br>
+                                     <span style="font-style: italic;">
+                                    Using the LICA program is very satisfying, the operation is practically not complicated, the program can be adjusted to our needs, the reporting system is very good because it can be made according to what we want so that monitoring and evaluation activities of laboratory services can be optimal, especially the critical value reporting system which is made in such a way that critical values can be reported quickly, real time and well recorded. With LICA, the PJ laboratory doctor can validate every time and anywhere. Hopefully the development of the inventory system for reagents and consumables will be realized soon.
+                                    </span>
+                                </p>
+                              
+                                </div>
+                              </div>
+                        </swiper-slide>
+                        <swiper-slide>
+                            <div class="card" style="width: 64rem; ">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-lg-2 col-sm-1">
+                                          
+                                        </div>
+                                        <div class="col-lg-8 col-sm-3">
+                                      <p class="card-title"><a href="#" ><i class="fa-solid fa-quote-right"></i>Ade Hasan Basri, S.ST, M.Biomed<br><span class="hospital">RSUD Indramayu</span></a></p>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <img id="profile-picture" src="assets/images/testimonial/testimoni-1.png" alt="">
+                                    </div>
+                                    </div>
+                                  <p class="card-text" style="text-align: justify;">LICA ok banget, aplikasinya sangat fleksibel bisa mengakomodir permintaan User, pengoprasiannya mudah dan cepat, tim  IT nya fast respon👍👍👍. 
+                                <br>
+                                <br>
+                                <span style="font-style: italic;">
+                                flexible can accommodate user requests, the operation is easy and fast, the IT team is fast response👍👍👍
+                                </span>
+                                </p>
+                              
+                                </div>
+                              </div>
+                        </swiper-slide>
+                        <swiper-slide>
+                            <div class="card" style="width: 64rem; ">
+                                <div class="card-body">
+                                   <div class="row">
+                                    <div class="col-lg-2 col-sm-1">
+                                      
+                                    </div>
+                                    <div class="col-lg-8 col-sm-3">
+                                  <p class="card-title"><a href="#" ><i class="fa-solid fa-quote-right"></i>Novlis Sulistianpa, A.Md.AK<br><span class="hospital">Klinik Cahaya Medika Kebumen</span></a></p>
+                                </div>
+                                <div class="col-lg-2">
+                                    <img id="profile-picture" src="assets/images/testimonial/testimoni-1.png" alt="">
+                                </div>
+                                </div>
+                                  <p class="card-text" style="text-align: justify;">Menggunakan program LICA dilaboratorium Klinik Cahaya Medika sangat membantu, karena program dibuat sesuai kebutuhan dilaboratorium mulai dari pendaftaran, input hasil sampai hasil keluar semua terprogram dengan baik di LICA. Terutama hasil dari alat yang langsung terhubung dengan LICA sehingga sangat meminimalisir kesalahan yang trjadi dlm proses input hasil. Program LICA jg memudahkan kita dalam menghitung pendapatan Lab menghitung jml pasien dan jmlh pemeriksaan. Semoga aplikasi LICA semakin berkembang dan lebih maju lagi sesuai kemajuan iptek diLaboratorium.
+                                <br>
+                                <br>
+                                <span style="font-style: italic;">
+                                Using the LICA program in the Cahaya Medika Clinic laboratory is very helpful, because the program is made according to the needs of the laboratory starting from registration, inputting results until the results come out all programmed properly in LICA. Especially the results of the tools that are directly connected to LICA so as to greatly minimize errors that occur in the process of inputting results. The LICA program also makes it easy for us to calculate the Lab's income by counting the number of patients and the number of examinations. Hopefully the LICA application will develop and be more advanced according to the advancement of science and technology in the laboratory.
+                            </span>
+                                </p>
+                              
+                                </div>
+                              </div>
+                        </swiper-slide>
+            
+                      </swiper-container>
+        </div>
+    </div>
+    <!-- rts testimonials area end -->
+
+    <!-- Footer two -->
+    <!-- rts footer area start -->
+    <div class="rts-footer-two rts-section-gap2Top" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                <!-- ,main footer area start -->
+                <div class="main-footer-wrapper-two">
+                        <!-- Coloum -->
+                        <div class="single-footer-wized-two logo-area" data-sal="slide-up" data-sal-delay="150" data-sal-duration="800">
+                            <a href="assets/images/logo/02.png" class="logo">
+                                <img src="assets/images/logo/logo-lica.png" alt="logo">
+                            </a>
+                        
+                        </div>
+                  
+                    <!-- end column -->
+                 
+                     <!-- end  -->
+                    </div>
+                </div>
+                    <div class="col-lg-2" style="text-align: left;">
+                        <p class="disc-f">
+                            " LICA That Makes Your Medical Lab Management Easier, Effective, and Low Cost than Ever "
+                           </p>
+                    </div>
+                    <div class="col-lg-3" style="text-align: left;">
+                        <div class="single-footer-wized-two user-number" data-sal="slide-up" data-sal-delay="350" data-sal-duration="800">
+                            <div class="user-number-wrapper mt--10">
+                          
+                                <!-- single number -->
+                                <div class="single-number" >
+                                    <h6  class="title">Phone Number</h6>
+                                    <div style="text-align: right ;" class="number">
+                                        <i class="fa-solid fa-phone"></i>
+                                        <a href="#">(022) 5441 8755</a>
+                                    </div>
+                                    <div class="number mt-4">
+                                        <i class="bi bi-whatsapp"></i>
+                                        <a href="https://wa.share.web.id/licaCS">+62 813 9514 5118</a>
+                                    </div>
+                                </div>
+                           
+                                <!-- single number end -->
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3" style="text-align: left;">
+                        <div class="single-footer-wized-two user-number" data-sal="slide-up" data-sal-delay="350" data-sal-duration="800">
+                            <div class="user-number-wrapper mt--10">
+                          
+                        
+                                <!-- single number -->
+                           
+                                <div class="single-number">
+                                    <h6 class="title">Email address</h6>
+                                    <div class="number">
+                                        <i class="fa-light fa-envelope"></i>
+                                        <a href="#">lica@indohadetama.co.id</a>
+                                    </div>
+                                </div>
+                         
+                                <!-- single number end -->
+                
+                            </div>
+                        </div>
+                    </div>
+                 
+                    <!-- ,main footer area end -->
+                    
+                    <div class="col-lg-2">
+                    <div class="single-footer-wized-two user-number" data-sal="slide-up" data-sal-delay="350" data-sal-duration="800">
+                        <div class="user-number-wrapper mt--10">
+                      
+                
+                          
+                            <div class="single-number">
+                                <h6 class="title">Office Location</h6>
+                                <div class="number">
+                                    <i class="fa-light fa-location-dot"></i>
+                                    <a class="mt-dec" href="#">Jl. Situ Tarate l (Gateside TCI) Cibaduyut Bandung 40239 Indonesia</a>
+                                </div>
+                            </div>
+                     
+                            <!-- single number end -->
+                        </div>
+                    </div>
+            </div>
+        </div>
+        </div>
+ 
+
+     
+
+        <!-- copy right area start -->
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="copyright-footer-two">
+                            <p class="disc">
+                                © 2023 LICA.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- copyright area end -->
+    </div>
+    <!-- rts footer area end -->
+    <!-- Footer two End -->
+
+    <!-- header two -->
+
+    <!-- progress area start -->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;"></path>
+        </svg>
+    </div>
+    <!-- progress area end -->
+
+    <!-- cart area start -->
+    <div class="cart-bar">
+        <div class="cart-header">
+            <h3 class="cart-heading">MY CART (3 ITEMS)</h3>
+            <div class="close-cart"><i class="fal fa-times"></i></div>
+        </div>
+        <div class="product-area">
+            <div class="product-item">
+                <div class="product-detail">
+                    <div class="product-thumb"><img src="assets/images/slider/image1.jpg" alt="product-thumb"></div>
+                    <div class="item-wrapper">
+                        <span class="product-name">Construct Map</span>
+                        <div class="item-wrapper">
+                            <span class="product-variation"><span class="color">Green /</span>
+                            <span class="size">XL</span></span>
+                        </div>
+                        <div class="item-wrapper">
+                            <span class="product-qnty">3 ×</span>
+                            <span class="product-price">$198.00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-edit">
+                    <div class="quantity-edit">
+                        <button class="button"><i class="fal fa-minus minus"></i></button>
+                        <input type="text" class="input" value="3">
+                        <button class="button plus">+<i class="fal fa-plus plus"></i></button>
+                    </div>
+                    <div class="item-wrapper d-flex mr--5 align-items-center">
+                        <a href="#" class="product-edit"><i class="fal fa-edit"></i></a>
+                        <a href="#" class="delete-cart"><i class="fal fa-times"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-item">
+                <div class="product-detail">
+                    <div class="product-thumb"><img src="assets/images/slider/image2.jpg" alt="product-thumb"></div>
+                    <div class="item-wrapper">
+                        <span class="product-name"> Bridge product</span>
+                        <div class="item-wrapper">
+                            <span class="product-variation"><span class="color">Green /</span>
+                            <span class="size">XL</span></span>
+                        </div>
+                        <div class="item-wrapper">
+                            <span class="product-qnty">2 ×</span>
+                            <span class="product-price">$88.00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-edit">
+                    <div class="quantity-edit">
+                        <button class="button"><i class="fal fa-minus minus"></i></button>
+                        <input type="text" class="input" value="2">
+                        <button class="button plus">+<i class="fal fa-plus plus"></i></button>
+                    </div>
+                    <div class="item-wrapper d-flex mr--5 align-items-center">
+                        <a href="#" class="product-edit"><i class="fal fa-edit"></i></a>
+                        <a href="#" class="delete-cart"><i class="fal fa-times"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-item last-child">
+                <div class="product-detail">
+                    <div class="product-thumb"><img src="assets/images/slider/image5.jpg" alt="product-thumb"></div>
+                    <div class="item-wrapper">
+                        <span class="product-name">Labour helmet</span>
+                        <div class="item-wrapper">
+                            <span class="product-variation"><span class="color">Green /</span>
+                            <span class="size">XL</span></span>
+                        </div>
+                        <div class="item-wrapper">
+                            <span class="product-qnty">1 ×</span>
+                            <span class="product-price">$289.00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-edit">
+                    <div class="quantity-edit">
+                        <button class="button"><i class="fal fa-minus minus"></i></button>
+                        <input type="text" class="input" value="2">
+                        <button class="button plus">+<i class="fal fa-plus plus"></i></button>
+                    </div>
+                    <div class="item-wrapper d-flex mr--5 align-items-center">
+                        <a href="#" class="product-edit"><i class="fal fa-edit"></i></a>
+                        <a href="#" class="delete-cart"><i class="fal fa-times"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cart-bottom-area">
+            <span class="spend-shipping"><i class="fal fa-truck"></i> SPENT <span class="amount">$199.00</span> MORE
+            FOR FREE SHIPPING</span>
+            <span class="total-price">TOTAL: <span class="price">$556</span></span>
+            <a href="checkout.html" class="checkout-btn cart-btn">PROCEED TO CHECKOUT</a>
+            <a href="cart.html" class="view-btn cart-btn">VIEW CART</a>
+        </div>
+    </div>
+    <!-- cart area edn -->
+
+    <div class="search-input-area">
+        <div class="container">
+            <div class="search-input-inner">
+                <div class="input-div">
+                    <input id="searchInput1" class="search-input" type="text" placeholder="Search by keyword or #">
+                    <button><i class="far fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+        <div id="close" class="search-close-icon"><i class="far fa-times"></i></div>
+    </div>
+
+
+    <div id="anywhere-home" class=""></div>
+
+    <!-- pre loader start -->
+    <!-- <div id="elevate-load">  
+        <div class="loader-wrapper">
+        <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+        </div> 
+    </div> -->
+    <!-- pre loader end -->
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+ <!-- Swipper Js -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+
+   <!-- map population -->
+    <script src="assets/js/map.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+          const swiper = new Swiper('.mySwiper', {
+            autoplay: {
+              delay: 5000,
+            },
+          });
+        });
+      </script>
+   
+
+    <!-- jquery js -->
+    <script src="assets/js/plugins/jquery.min.js"></script>
+    <!-- jquery ui -->
+    <script src="assets/js/vendor/jqueryui.js"></script>
+    <!-- counter up -->
+    <script src="assets/js/plugins/counter-up.js"></script>
+   
+    <!-- twinmax -->
+    <script src="assets/js/vendor/twinmax.js"></script>
+    <!-- split text js -->
+    <script src="assets/js/vendor/split-text.js"></script>
+    <!-- text plugins -->
+    <script src="assets/js/plugins/text-plugins.js"></script>
+    <!-- metismenu js -->
+    <script src="assets/js/plugins/metismenu.js"></script>
+    <!-- waypoint js -->
+    <script src="assets/js/vendor/waypoint.js"></script>
+    <!-- waw -->
+    <script src="assets/js/vendor/waw.js"></script>
+    <!-- aos js -->
+    <script src="assets/js/plugins/aos.js"></script>
+    <!-- jquery ui js -->
+    <script src="assets/js/plugins/jquery-ui.js"></script>
+    <!-- timepickers -->
+    <script src="assets/js/plugins/jquery-timepicker.js"></script>
+    <!-- sal animation -->
+    <script src="assets/js/vendor/sal.min.js"></script>
+    <!-- bootstrap JS -->
+    <script src="assets/js/plugins/bootstrap.min.js"></script>
+    <!-- easing JS -->
+    <script src="assets/js/plugins/jquery-slideNav.js"></script>
+    <!-- easing JS -->
+    <script src="assets/js/plugins/hover-revel.js"></script>
+    <!-- contact form js -->
+    <script src="assets/js/plugins/contact-form.js"></script>
+    <!-- main js -->
+    <script src="assets/js/main.js"></script>
+    <!-- swip image -->
+    <script src="assets/js/plugins/swip-img.js"></script>
+
+
+    <script src="assets/js/app.js"></script>
+    <!-- header two End -->
+
+
+
+
+
+
+</body>
+
+</html>
